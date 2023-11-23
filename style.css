@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  height: 20%;
+  padding-right: 8%;
+  padding-top: 2%;
+  box-sizing: border-box;
+}
+nav{
+  flex: 1;
+  height: auto;
+  text-align: right;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+nav ul { 
+  list-style: n;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+
+
+.container{
+    display: flex;
+    padding-left:50px;
+    justify-content: center;
+    align-items: center;
+      height: 65vh;
+      align-items: center;
+      
+      
+  
+}
+.img-card{
+    height: 500px;
+    width: 350px;
+    border-radius: 3px;
+    
+
+}
+.card{
+    height: 350px;
+    margin: 50px;
+    
+    box-shadow: 5px 5px 50px rgb(0, 0, 0);
+      
+    overflow: hidden;
+    border-radius: 12%;
+   
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+      height: 20vh;
+    
+}
+.bgimg-1{
+    background-image: url('/vibetest2/Untitled-4\ \(1\).png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('/vibetest2/Untitled-4\ \(1\).png');
+    background-size: cover;
+    min-height: 800px;
+
+}      
+.bgimg-2{
+    background-image: url('/vibetest2/WhatsApp\ Image\ 2023-04-12\ at\ 13.20.02.jpg');
+}
+.bgimg-3{
+    background-image: url('/vibetest2/17.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body, html {
+  
+  }
+
+  .bgimg-1, .bgimg-2, .bgimg-3{
+    position: relative;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+  
+  }
+ 
+  
+  .bgimg-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('/vibetest2/brithik.jpg');
+    background-size: cover;
+         min-height: 400px;
+  }
+  
+  .bgimg-3 {
+    background-image: url("/vibetest2/ideathon\ 2.avif");
+    min-height: 400px;
+  }
+  
+
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
+
+
+
+
+.nxt{
+  background-color: rgb(0, 0, 0);
+  min-height: 5px;
+}
+
+
+
+.nxt1{
+  background-color: rgb(255, 255, 255);
+  min-height: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .wrapper{
+    margin: 3px auto;
+    width: 70%;
+  }
+  .c1-img{
+    max-width: 350px;
+  }
+  .text-box{
+    color: #ad2424;
+  }
+  .c1-h1{
+    font-size: 42px;
+  
+  }
+ .c1-p1{
+  font-size: 16px;
+ }
+  
+
+
+
+
+
+
+
+
+
+
+
+
